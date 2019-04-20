@@ -1,0 +1,77 @@
+.layout-header-wrapper {
+  border-bottom: 1px solid #e5e5e5;
+}
+.layout-header {
+  max-width: 1100px;
+  height: 35px;
+  margin: 0 auto;
+  display: flex;
+  padding: 4px 16px;
+  align-items: center;
+  justify-content: space-between;
+
+  h1 {
+    margin: 0;
+    cursor: pointer;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    transition: 200ms;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    &:active {
+      transform: scale(0.8);
+    }
+  }
+
+  .ant-radio-group {
+    .ant-radio-button-wrapper {
+      &,
+      &:first-child,
+      &:last-child {
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        margin: 1px 3px;
+        a {
+          color: #000;
+        }
+      }
+      &:hover,
+      &:focus-within {
+        cursor: pointer;
+        outline: none !important;
+        border-color: transparent;
+      }
+      &::before {
+        background: none;
+      }
+    }
+    .ant-radio-button-wrapper-checked {
+      background-color: #1b87fb !important;
+      a {
+        color: #fff !important;
+      }
+    }
+  }
+}
+.layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.layout-body-wrapper {
+  flex: 1;
+}
+.layout-body {
+  max-width: 1100px;
+  display: flex;
+  height: 100%;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+

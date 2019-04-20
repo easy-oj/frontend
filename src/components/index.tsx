@@ -1,0 +1,5 @@
+export { default as HomeView } from './HomeView'
+export { default as LoginView } from './LoginView'
+export { default as UserControl } from './UserControl'
+export { default as ProblemsView } from './ProblemsView'
+export { default as EditorView } from './EditorView'

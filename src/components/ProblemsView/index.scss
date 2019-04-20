@@ -1,0 +1,25 @@
+.problem-list {
+  .-id {
+    color: #666666;
+    margin-right: 16px;
+    font-weight: 300;
+  }
+  .-operation {
+    & > * {
+      margin-left: 16px;
+    }
+  }
+  .-loading {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+  }
+  .-ac {
+    color: #222222;
+  }
+}
+.problem-list-wrapper {
+  overflow: auto;
+  height: calc(100vh - 60px);
+}

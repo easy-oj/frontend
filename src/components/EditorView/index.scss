@@ -1,0 +1,78 @@
+#eoj-editor-container {
+  width: 100%;
+  height: 100%;
+}
+.eoj-editor {
+  .ant-col {
+    height: 100%;
+  }
+  .ant-spin-nested-loading {
+    height: 100%;
+  }
+  .-operation {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    background: #fff;
+    padding: 8px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    .-choose-lang {
+      min-width: 120px;
+    }
+    & > * {
+      margin: 0 0 8px 8px;
+    }
+
+    .ant-collapse {
+      width: 100%;
+    }
+    .ant-collapse-header {
+      padding: 5px 16px 5px 40px !important;
+    }
+  }
+}
+.problem-detail {
+  background: #f7f7f7;
+  padding: 36px;
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: #555;
+    margin-top: 16px;
+  }
+  h3 {
+    font-weight: 500;
+  }
+
+  h4 {
+    border-top: 1px solid #dddddd;
+    padding-top: 16px;
+  }
+  * {
+    color: #000;
+  }
+  pre {
+    margin-top: 8px;
+    font-family: monospace;
+    border-radius: 4px;
+    border: 1px solid #e3e3e3;
+    padding: 16px;
+    background-color: #fafafa;
+  }
+}
+.placeholder {
+  .-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .-tips {
+    font-weight: 300;
+    font-size: 24px;
+    color: #666;
+  }
+}
