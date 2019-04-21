@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { default as EditorView, TDetail } from './indexView'
-import Placeholder from './PlaceHolder'
+import Placeholder from './Placeholder'
 import queryString from 'query-string'
 
 import './index.scss'
